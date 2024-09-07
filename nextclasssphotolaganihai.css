@@ -1,0 +1,37 @@
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-image: url(https://www.portotheme.com/wordpress/porto/shop47/wp-content/uploads/sites/230/2023/11/porto47-intro-banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+
+}
+/* 100vh hero section ki height htoi hai */
+.hero article .div1{
+    font-size: 24px;
+    color: rgb(71, 70, 70)
+}
+.hero article .div2{
+    font-size: 48px;
+    color: black;    
+}
+.hero article .div3{
+    font-size: 16px;
+    text-decoration: underline;
+}
+.hero article div img {
+    position: relative;
+    z-index: 3;
+}
+/* =======================font size======================= */
+.speed{
+    font-size: 150px;
+    font-weight: 600;
+    position: absolute;
+    left: 750px;
+    top: 28px;
+    z-index: 1;
+    color: white;
+}

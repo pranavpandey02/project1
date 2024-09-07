@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    background-color: black;
+    padding: 10px;
+}
+/* yaha per sir se phuchna h ki text decoration likhte hi sare circle nd word k necche underline kaise hat gayi */
+.navbar ul li a{
+    text-decoration: none;
+    margin: 20px;
+    background-color: white;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}

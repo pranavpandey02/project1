@@ -1,0 +1,445 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* =========== yadi screen scroll ho rhi h to css properties ye lagani h======== */
+
+.body{
+    overflow-x: hidden;
+}
+.html{
+    overflow-x: hidden;
+}
+/* ==============side fixed four item=================================== */
+.sidefixed {
+    position: fixed;
+    right: 0px;
+    top: 150px;
+}
+.sidefixed div {
+    width:  60px;
+    height: 60px;
+    background-color: rgb(161, 159, 159);
+    margin: 20px 0px 20px 0px;
+     color: black;
+    color: solid black;
+    text-align: center;
+    padding:0px;
+    margin-top: 30px; 
+
+} 
+.topnavbar {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* position: fixed; */
+}
+.topnavbar u{
+    margin-left: 10px;
+    cursor: pointer;
+}
+#less {
+    margin-right: 100px;
+}
+#greater{
+    margin-left: 100px;
+}
+#xmark{
+    position: absolute;
+    right: 10px;
+}
+.midnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 100px 5px 100px;
+    background-color:white ;
+    border-bottom: 1px solid silver;
+}
+.midnav article a{
+     text-decoration: none;
+     color: black;
+
+}
+.midnav article{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    color: black ;
+}
+.lastnavbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    /* border-bottom: 1px solid silver; */
+}
+.lastnavbar article {
+    text-decoration: none;
+    display: flex;
+}
+.lastnavbar article div a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+}
+.icon div{
+    margin: 20px;
+}
+.lastnavbar article div a img{
+    margin-right: 50px;
+}
+/* =================================hero========================== */
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+    /* align item center se content sara center me ata h */
+    align-items: center;
+    background-image: url(https://www.portotheme.com/wordpress/porto/shop47/wp-content/uploads/sites/230/2023/11/porto47-intro-banner-1.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.hero article .div1{
+    font-size:26px;
+    color: silver;
+}
+.hero article .div2{
+    font-size: 48px;
+    color: black;
+}
+.hero article .div3{
+    font-size: 20px;
+    color: rgb(41, 41, 41);
+}
+
+ .hero article .speed{
+    position: absolute;
+    top: 225px;
+    color: white;
+    font-size: 120px;
+    right: 230px;
+    z-index: 1;
+    
+        font-family: "Nerko One", cursive;
+        font-weight: 400;
+        font-style: normal;       
+}
+.hero article .bigspeed{
+    position: absolute;
+    top: 190px;
+    color: white;
+    font-size: 300px;
+    left: 650px;
+    /* right: 0px; */
+    z-index: 1;
+    opacity: 0.3;
+}
+.hero article .price{
+    position: absolute;
+    top: 600px;
+    left: 1000px;
+    font-size: 20px;
+}
+.hero article .dolor{
+    position: absolute;
+    top: 625px;
+    left: 1030px;
+    font-size: 25px;
+}
+.hero article .dolor del{
+    color: silver;
+    font-size: 20px;
+}
+ .hero article div img{
+    /* ============= relative se layer chodti ni h  */
+    position: relative;
+    /* ==========kisi bhi cheeze ko aage peeche krna h to hum z index ka use krte h============= */
+    z-index: 3; 
+    
+ }
+.porto div a img {
+    height: 60px;
+}
+/* =============================================card1=============================== */
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.card article {
+    margin: 30px;
+    background-color:silver;
+    justify-content: space-evenly;
+    height: 220px;
+    width: 200px;
+    
+}
+.card .bag img{
+    height: 150px;
+    mix-blend-mode:color-burn;
+    margin-left: 20px;  
+
+}
+.bag div .bag1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    margin: 10px;
+}
+.bag div .bag2 a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    margin: 10px;
+}
+.bag .bag3 a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    margin: 20px;
+    margin-bottom: 20px;
+}
+/* =====================card2========================== */
+.card2 div img{
+    height: 150px;
+    mix-blend-mode:color-burn;
+    margin-left: 20px;  
+
+}
+.card2 .card21 a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    margin: 10px;
+}
+.card2 .card22 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+}
+.card2 .card23 a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    margin-bottom: 200px;
+}
+/* -==================================card 3======================================= */
+.card3 div img{
+    height: 150px;
+    mix-blend-mode:color-burn;
+    margin-left: 20px;  
+}
+.card3 .card31 a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    margin: 10px;
+}
+.card3 .card32 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+}
+.card3 .card33 a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    margin-bottom: 200px;
+}
+/* -+++++++=======================card4============= */
+.card4 div img{
+    height: 150px;
+    mix-blend-mode:color-burn;
+    margin-left: 20px;  
+}
+.card4 .card41 a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    margin: 10px;
+}
+.card4 .card42 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+}
+.card4 .card43 a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    margin-bottom: 200px;
+}
+/* =============card5============ */
+.card5 div img{
+    height: 150px;
+    mix-blend-mode:color-burn;
+    margin-left: 20px;  
+}
+.card5 .card51 a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    margin: 10px;
+}
+.card5 .card52 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+}
+.card5 .card53 a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    margin-bottom: 200px;
+}
+/* ========================card6=============== */
+.card6 div img{
+    height: 150px;
+    mix-blend-mode:color-burn;
+    margin-left: 20px;  
+}
+.card6 .card61 a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    margin: 10px;
+}
+.card6 .card62 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+}
+.card6 .card63 a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    margin-bottom: 200px;
+}
+/* ====================card7================== */
+.card7 div img{
+    height: 150px;
+    mix-blend-mode:color-burn;
+    margin-left: 20px;  
+}
+.card7 .card71 a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    margin: 10px;
+}
+.card7 .card72 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+}
+.card7 .card73 a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    margin-bottom: 200px;
+}
+/* ======================card8============================= */
+.card8 div img{
+    height: 150px;
+    mix-blend-mode:color-burn;
+    margin-left: 20px;  
+}
+.card8 .card81 a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    margin: 10px;
+}
+.card8 .card82 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+}
+.card8 .card83 a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    margin-bottom: 200px;
+}
+/* =================card9==================== */
+.card9 div img{
+    height: 150px;
+    mix-blend-mode:color-burn;
+    margin-left: 20px;  
+}
+.card9 .card91 a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    margin: 10px;
+}
+.card9 .card92 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+}
+.card9 .card93 a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    margin-bottom: 200px;
+}
+/* ==================card10============= */
+.card10 div img{
+    height: 150px;
+    mix-blend-mode:color-burn;
+    margin-left: 20px;  
+}
+.card10 .card101 a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    margin: 10px;
+}
+.card10 .card102 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+}
+.card10 .card103 a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    margin-bottom: 200px;
+}
+/* ===============show more============= */
+.card10 .show a{
+    text-align: center;
+    justify-content: center;
+    margin;
+}
+/* =========================down========================== */
+.down article .letter1{
+    font-size: 20px;
+    text-align: center;
+    color: silver;
+}
+.down article .letter2{
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+.down{
+    padding: 40px;
+}

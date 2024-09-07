@@ -1,0 +1,493 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+/* body{
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+} */
+/* =============sidefixed ==========*/
+.sidefixed {
+    position: fixed;
+    right: 0px;
+    top: 300px;
+}
+.sidefixed div {
+    width:  40px;
+    height: 20px;
+    background-color: rgb(177, 20, 20);
+    margin: 20px 0px 20px 0px;
+     color:white;
+    /* color: solid black; */
+    text-align: center;
+    padding:0px;
+    margin-top: 30px; 
+    align-items: center;
+
+} 
+.sidefixed .icon1{
+    margin-top: -15px;
+    align-items: center;
+}
+/* ================firstnavbar=============== */
+.firstnavbar{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
+    padding: 13px;
+    
+}
+.firstnavbar .firstarticle a{
+text-decoration: none;
+color: black; 
+display: flex;
+font-size: 18px;
+}
+.firstarticle{
+    display: flex;
+    /* padding: 5px; */
+    /* margin: 20px; */
+    margin-left: 10px;
+}
+.secondarticle {
+    display: flex;
+    margin-left: -90px;
+}
+.secondarticle div a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.thirdarticle div a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+    font-size: 18px;
+}
+.thirdarticle{
+     display: flex;
+     margin-right: 30px;
+}
+
+    /* ========second navbar========== */
+    .secondnavbar {
+        position: sticky;
+       
+    }
+    .secondnavbar{
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content:space-between;
+    padding: 5px;
+    position:sticky;
+    top: 0px;
+}
+    .article2 div img{
+    height: 40px;
+    margin-left: 20px;
+ } 
+  .twosection div a{
+    text-decoration: none;
+    color: black;
+   font-size: 20px; 
+ }
+.twosection{
+    display: flex;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 15px;
+}
+.threesection{
+    display: flex;
+    margin-left:-50px;    
+    /* margin-right: -0px; */
+    padding: 15px;
+}
+/* ================hero============== */
+.hero {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    /* justify-content:center */
+    align-items: center;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4dgnAica7sj1cK0JI_WYL_y-Ly3Fl5HnsRg&s); */
+    background-image: url(https://thumbs.dreamstime.com/b/vegetable-background-fresh-tomatoes-paprika-onions-parsley-table-top-view-black-free-space-text-151189888.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 60px;
+    
+}
+.hero article .div1{
+    font-size: 120px;
+    /* color: black; */
+    /* padding-left: 60px; */
+}
+.hero article .div2{
+    font-size: 120px;
+}
+.hero article .div3{
+    font-size: 50px;
+}
+.div4{
+   /* height: 100px; */
+   width: 100px;
+   border: 2px solid black;
+   border-radius: 40px;
+   padding: 10px;
+   background-color: black;
+}
+.hero img{
+ height: 10px;
+}
+/* =====================down================ */
+.bc{
+    background-color:rgb(247, 244, 244);
+}
+.down {
+    padding: 40px;
+}
+.down article div{
+    font-size: 40px;
+    color: rgb(2, 56, 2);
+}
+
+
+/* ===============card=================== */
+.shop{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.shop article {
+    margin: 30px;
+    background-color:rgb(223, 219, 219);
+    
+    justify-content: space-evenly;
+    height: 120px;
+    width: 350px;
+    
+}
+/* ========card1============== */
+.shop article div img{
+    height: 130px;
+    mix-blend-mode: color-burn;
+    margin-top: -60px;
+}
+.shop article .card1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin : 20px;
+}
+.shop article div .card2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px; 
+    margin: 20px;
+    
+}
+/* ===================card2============= */
+
+.shop article div img{
+    height: 130px;
+    mix-blend-mode: color-burn;
+    margin-top: -60px;
+}
+.shop article div .card21 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin : 20px;
+
+}
+.shop article div .card22 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px; 
+    margin: 20px;
+}
+/* ===========card 3================ */
+.shop article div img{
+    height: 130px;
+    mix-blend-mode: color-burn;
+    margin-top:-60px;
+}
+.shop article div .card31 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin : 20px;
+
+}
+.shop article div .card32 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px; 
+    margin: 20px;
+}
+/* ===============down================ */
+.down article div{
+    font-size: 50px;
+    color: rgb(1, 24, 1);
+}
+/* ==============down k neege wala card============= */
+.downcard{
+ display: grid;
+ grid-template-columns: auto auto auto auto auto;   
+}
+.downcard article div img {
+    margin: 30px;
+    background-color:silver;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 200px;
+}
+.downcard article .content1{
+    font-size: 20px;
+    margin-left: 70px
+}
+.downcard article .content2{
+    font-size: 20px;
+    margin-left: 100px;
+    padding: 5px;
+}
+.downcard article .content3{
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-left: 80px;
+}
+.downcard article .content21{
+    font-size: 20px;
+    margin-left: 50px
+}
+.downcard article .content22{
+    font-size: 20px;
+    margin-left: 100px;
+    padding: 5px;
+    
+}.downcard article .content31{
+    font-size: 20px;
+    margin-left: 60px
+}
+.downcard article .content32{
+    font-size: 20px;
+    margin-left: 100px;
+    padding: 5px;
+    
+}.downcard article .content41{
+    font-size: 20px;
+    margin-left: 30px
+}
+.downcard article .content42{
+    font-size: 20px;
+    margin-left: 100px;
+    padding: 5px;
+    
+}.downcard article .content51{
+    font-size: 20px;
+    margin-left: 70px;
+}
+.downcard article .content52{
+    font-size: 20px;
+    margin-left: 100px;
+    padding: 5px;
+}
+/* ===========================prodcuts====================== */
+.product {
+    align-items: center;
+    display: flex;
+    /* padding: 10px; */
+    /* margin: 30px; */
+    height: 100vh;
+    width: 100%;
+    /* padding-left: 100px; */
+    justify-content: space-evenly;
+    
+}
+.product article .div1{
+    font-size: 60px;
+    color: rgb(4, 68, 4);
+    margin-left: -240px;
+}
+.product article .div2{
+    font-size: 16px;
+    color: rgb(75, 71, 71);
+    margin-left: -230px;
+}
+.product article .div3{
+    font-size: 20px;
+     color: black;
+    margin-left: -230px;
+}
+.product article div img{
+    height: 500px;
+    margin-right: 280px;
+}
+/* ===============store cupboard */
+.storecupboard article div{
+    font-size: 50px;
+    color: rgb(1, 32, 1);
+    padding: 40px;
+}
+/* ===============card2 =================*/
+.nextshop{
+        display: grid;
+        grid-template-columns:auto auto  auto auto auto;
+}
+.nextshop article div img {
+    margin: 30px;
+    background-color:silver;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 200px;
+}
+.nextshop article .content61{
+    font-size: 20px;
+    margin-left: 39px
+}
+.nextshop article .content62{
+    font-size: 20px;
+    margin-left: 100px;
+    padding: 5px;
+}
+.nextshop article .content63{
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-left: 80px;
+}
+.nextshop article .content71{
+    font-size: 20px;
+    margin-left: 50px
+}
+.nextshop article .content72{
+    font-size: 20px;
+    margin-left: 100px;
+    padding: 5px;
+    
+}
+.nextshop article .content81{
+    font-size: 20px;
+    margin-left: 50px
+}
+.nextshop article .content82{
+    font-size: 20px;
+    margin-left: 100px;
+    padding: 5px;
+    
+}
+.nextshop article .content91{
+    font-size: 20px;
+    margin-left: 50px
+}
+.nextshop article .content92{
+    font-size: 20px;
+    margin-left: 100px;
+    padding: 5px;
+    
+}
+.nextshop article .content101{
+    font-size: 20px;
+    margin-left: 70px;
+}
+.nextshop article .content102{
+    font-size: 20px;
+    margin-left: 100px;
+    padding: 5px;}
+     /* ============footer============= */
+     .footer article div{
+        font-size: 40px;
+        padding: 70px;
+        margin-left: 500px;
+     }
+/* ================down 2================== */
+.down2{
+ display: grid;
+ grid-template-columns: auto auto auto ;   
+}
+.down2 article{
+ height: 200px;   
+ width: 350px;
+ background-color:white;
+ margin-left: 50px;
+}
+.down2 article div img{
+    height: 90px;
+    margin-left: 130px;
+}
+.down2 article .div1{
+    color: rgb(2, 61, 2);
+    font-size: 25px;
+    margin-left: 90px;
+}
+.down2 article .div2{
+    color: rgb(133, 129, 129);
+    font-size: 20px;
+    margin-left: 40px;
+}
+.down2 article .div11{
+    color: rgb(2, 61, 2);
+    font-size: 25px;
+    margin-left: 110px;
+}
+.down2 article .div12{
+    color:rgb(133,129,129);
+    font-size: 20px;
+    margin-left: 45px;
+}
+.down2 article .div21{
+    color: rgb(2, 61, 2);
+    font-size: 25px;
+    margin-left: 120px;
+}
+.down2 article .div22{
+    /* color: white; */
+    color:rgb(133,129,129);
+    font-size: 20px;
+    margin-left: 40px;
+}
+.pro{
+    background-color: rgba(233, 232, 232, 0.795);
+    padding-bottom: 50px;
+}
+/* =================footer22 =============*/
+.footer22{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    margin-left: -60px;
+    padding-bottom: 60px;
+}
+.footer22 article .div1{
+    font-size: 50px;
+    color: rgb(1, 24, 1);
+}
+.footer22 article .div2{
+    font-size: 20px;
+    color: rgb(133, 129, 129);
+    /* margin-left: 10p; */
+}
+.footer22 .div3 a{
+text-decoration: none;
+font-size: 20px;
+color:  rgb(133, 129, 129);
+}
+.footer22 .div31 a {
+    font-size: 25px;
+    color:black;
+}
+
+

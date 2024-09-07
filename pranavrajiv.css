@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topnavbar{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.topnavbar u{
+    margin: 10px;
+    cursor: pointer;
+}
+#greater{
+    margin-left: 300px;
+}
+
+#less{
+    margin-right: 300px;
+}

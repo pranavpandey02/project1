@@ -1,0 +1,49 @@
+
+    
+    @import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+        /* font-family: "Matemasie", sans-serif;
+        font-weight: 400;
+        font-style: normal; */
+    
+      
+}
+.navbar{
+    background-color: black;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    position: sticky;
+    top: 0px;
+}
+.hero article .div3{
+    position: fixed;
+    top: 500px;
+    right: 0px;
+}
+.hero article .div1{
+    
+        font-family: "Matemasie", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}

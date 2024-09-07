@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* ============navabar=================== */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 100px 5px 100px;
+    background-color: black;
+}
+
+.navbar .first div a{
+    text-decoration: none;
+    color: white;
+}
+.navbar .second div a{
+    text-decoration: none;
+    color: white;   
+    display: flex;
+}
+.navbar .third div a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+.navbar article{
+    display: flex;
+    margin: 20px;
+}
+.navbar .third div{
+    color: wheat;
+}
+/* ====================== hero ============== */
+.hero {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.hero article div img{
+height: 500px;
+}
+.hero article .div1{
+    font-size: 70px;
+}
