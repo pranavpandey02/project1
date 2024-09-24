@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.front{   
+    height: 100%;
+    width: 100%; 
+    background-image: url(https://wallpaperaccess.com/full/2690586.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+.one{
+    color: #000;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.one h1{
+    font-size: 30px;
+    font-weight: normal;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.non h1{
+    margin-top: 120px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+
+.non p{
+    margin-top: 5px;
+} 
+
+
+.non button{
+    text-align: center;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background-color:rgb(246, 186, 32);
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+
+.non button:hover{
+    color: rgb(246, 186, 32);
+    background-color: #fff;
+}
+
+
+.second{
+    display: flex;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+
+.sec1{
+    width: 418px;
+    background-color:rgb(203, 172, 133);
+    height: 80px;
+}
+
+
+
+.sec2{
+    height: 80px;
+    width: 418px;
+    background-color:rgb(170, 121, 62);
+}
+
+
+
+.sec3{
+    height: 80px;
+    width: 418px;
+    background-color:rgb(104, 61, 7);
+}
+
+
+.room{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 1, 0.59)50%,rgba(0, 0, 1, 0.59)50%), url(https://photos.mandarinoriental.com/is/image/MandarinOriental/dubai-suite-skyline-view-bedroom);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+
+.room h1{
+    padding-top: 50px;
+    color: #fff;
+    font-family: Helvetica;
+}
+
+
+.rooms{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.room1{
+    height: 450px;
+    width: 350px;
+    background-color: #0000005b;
+}
+
+
+.room1 a{
+    color: #fff;
+}
+
+.room1 img{
+    width: 350px;
+    height: 250px;
+}
+
+
+.about{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    color: #fff;
+    justify-content: space-evenly;
+    background-color: rgb(95, 53, 2);
+}
+
+
+.about1{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.image{
+    margin-top: 30px;
+}
+
+.about1 img{
+    height: 400px;
+    width: 250px;
+}
+
+
+
+.about2 p{
+    margin-top: 30px;
+}
+
+
+.about2 button{
+    margin-top: 30px;
+    border:1.5px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+.last{
+    height: 80%;
+    width: 100%;
+    background:linear-gradient(to top, rgba(0, 0, 1, 0.59)50%,rgba(0, 0, 1, 0.59)50%), url(http://www.vertexhsb.com/Upload/1551947866.jpg);
+    text-align: center;
+    color: #fff;
+    
+}
+
+.last h1{
+    padding-top: 50px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+.last i{
+    color: rgb(203, 172, 133);
+    font-size: 30px;
+}
+
+
+.last p{
+    margin-top: 20px;
+    letter-spacing: .8px;
+    line-height: 25px;
+     font-family: "Ga Maamli", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+}
+
+
+
+@media(max-width:600px){
+    
+     .room{
+        height: 230%;
+        width: 100%;
+     }
+
+     .rooms{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 50px; 
+     }
+
+     .about{
+        height: 160%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        text-align: center;
+     }
+
+}

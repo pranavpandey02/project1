@@ -3,13 +3,18 @@
     padding: 0px;
     scroll-behavior: smooth;
 }
-/* body{
+body{
     overflow-x: hidden;
 }
 html{
     overflow-x: hidden;
-} */
+} 
 /* =============sidefixed ==========*/
+/* html,body{ */
+    /* height: 100vh; */
+    /* width: 100vh; */
+/* } */
+
 .sidefixed {
     position: fixed;
     right: 0px;
@@ -40,7 +45,7 @@ html{
     border-bottom: 1px solid silver;
     border-top: 1px solid silver;
     padding: 13px;
-    
+    width: 100%;
 }
 .firstnavbar .firstarticle a{
 text-decoration: none;
@@ -54,9 +59,24 @@ font-size: 18px;
     /* margin: 20px; */
     margin-left: 10px;
 }
-.secondarticle {
-    display: flex;
-    margin-left: -90px;
+
+
+@media(max-width:600px)
+{
+    .firstnavbar{
+        height: 100vh;
+        /* width: 100vh; */
+    }
+
+    .firstnavbar .firstarticle a{
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+    }
+
+    .secondarticle{
+        font-size: 10px;
+        margin-left: -90px; margin-left: -90px;
 }
 .secondarticle div a{
     text-decoration: none;
@@ -77,6 +97,7 @@ font-size: 18px;
     /* ========second navbar========== */
     .secondnavbar {
         position: sticky;
+        /* width: 100vh; */
        
     }
     .secondnavbar{
@@ -112,7 +133,7 @@ font-size: 18px;
 .hero {
     background-color: black;
     height: 100vh;
-    width: 100%;
+    /* width: 100vh; */
     color: white;
     display: flex;
     /* justify-content:center */
@@ -491,3 +512,10 @@ color:  rgb(133, 129, 129);
 }
 
 
+@media(max-width:600px)
+{
+    .firstnavbar{
+        height: 100vh;
+        width: 100vh;
+    }
+}
